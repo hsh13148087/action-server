@@ -1,0 +1,13 @@
+{
+  "name": "action-server",
+  "version": "1.0.0",
+  "description": "行动提醒 - 推送与跨设备同步后端 (Web Push + 共享状态)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "web-push": "^3.6.6"
+  }
+}
